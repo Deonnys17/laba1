@@ -1,0 +1,24 @@
+{
+  "name": "unidone",
+  "version": "0.0.2",
+  "type": "module",
+  "description": "Student Deadline Manager - MVP",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.vue --fix",
+    "format": "prettier --write \"src/**/*.{js,vue,json,css}\""
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^9.39.2",
+    "@eslint/js": "^9.39.2",
+    "eslint-plugin-vue": "^10.7.0",
+    "prettier": "^3.8.1",
+    "vite": "^5.1.4"
+  }
+}

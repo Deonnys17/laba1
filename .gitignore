@@ -1,0 +1,87 @@
+# =========================
+# Загальні
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+env/
+venv/
+.venv/
+ENV/
+pip-wheel-metadata/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# =========================
+# Віртуальне середовище
+# =========================
+env/
+venv/
+.venv/
+
+# =========================
+# IDE / Редактори
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# ОС файли
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Логи та кеш
+# =========================
+*.log
+logs/
+.cache/
+.pytest_cache/
+
+# =========================
+# Node.js (якщо раптом є)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Бази даних
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# Секрети
+# =========================
+.env
+.env.*
+*.key
+*.pem
