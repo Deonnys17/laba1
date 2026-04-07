@@ -1,6 +1,6 @@
 <template>
   <div class="stats-bar">
-    <div class="stats-row">
+    <div v-if="total > 0" class="stats-row">
       <div class="stat">
         <span class="stat-value">{{ total }}</span>
         <span class="stat-label">Всього</span>
@@ -17,6 +17,10 @@
         <span class="stat-value">{{ overdue }}</span>
         <span class="stat-label">Прострочено</span>
       </div>
+    </div>
+
+    <div v-if="total === 0" class="empty-state">
+      Додайте перше завдання, щоб побачити статистику 🎯
     </div>
 
     <div class="progress-wrap" v-if="total > 0">
@@ -73,6 +77,13 @@ export default {
   padding: 20px 24px;
   box-shadow: 0 2px 16px rgba(37, 99, 235, 0.08);
   margin-bottom: 24px;
+}
+
+.empty-state {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 0.95rem;
+  padding: 12px 0 4px;
 }
 
 .stats-row {
