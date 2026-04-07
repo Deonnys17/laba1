@@ -161,7 +161,6 @@ export default {
 
 
 .fill-low  { background: linear-gradient(90deg, #9c1414, #f97316); }
-
 .fill-mid  { background: linear-gradient(90deg, #f97316, #eab308); }
 .fill-good { background: linear-gradient(90deg, #22c55e, #16a34a); }
 .fill-perfect { background: linear-gradient(90deg, #2563eb, #7c3aed); }
