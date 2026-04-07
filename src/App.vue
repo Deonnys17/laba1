@@ -13,6 +13,7 @@
 
     <main class="main">
       <div class="container">
+        <StatsBar :tasks="tasks" />
         <TaskForm @add-task="addTask" />
         <TaskList
           :tasks="tasks"
@@ -36,11 +37,12 @@
 <script>
 import TaskForm from './components/TaskForm.vue'
 import TaskList from './components/TaskList.vue'
+import StatsBar from './components/StatsBar.vue'
 import { useTasks } from './composables/useTasks.js'
 
 export default {
   name: 'App',
-  components: { TaskForm, TaskList },
+  components: { TaskForm, TaskList, StatsBar },
   setup() {
     const { tasks, addTask, removeTask, toggleDone } = useTasks()
     return { tasks, addTask, removeTask, toggleDone }
