@@ -158,7 +158,7 @@ export default {
   transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.fill-low  { background: linear-gradient(90deg, #ef4444, #f97316); }
+.fill-low  { background: linear-gradient(90deg, #9c1414, #f97316); }
 .fill-mid  { background: linear-gradient(90deg, #f97316, #eab308); }
 .fill-good { background: linear-gradient(90deg, #22c55e, #16a34a); }
 .fill-perfect { background: linear-gradient(90deg, #2563eb, #7c3aed); }
